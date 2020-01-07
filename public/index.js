@@ -82,7 +82,9 @@ const rentals = [{
     'treasury': 0,
     'virtuo': 0
   }
-}];
+}
+"price": (returnDate - pickupDate)*pricePerDay + distance*pricePerKm
+];
 
 //list of actors for payment
 //useful from step 5
